@@ -58,7 +58,7 @@ def prepare_data(dataset_name,k):
 
     train_or_test_list =np.array(['train']*n_train+['test']*n_test).tolist()
 
-    sentences=split2ngram(sequences,6)
+    sentences=split2ngram(sequences,k)
 
     clear_sentence=open('./data/corpus/'+dataset_name+'.clean.txt','w')
     for line in sentences:
