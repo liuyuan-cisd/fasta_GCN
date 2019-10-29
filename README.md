@@ -46,6 +46,7 @@ train_test_GCN.py 和 prepare_data_trian_test.py
 运行 train_test_GCN.py 
 
 -------------------------------我是分割线---------------------------------
+
 GCN的参数在train.py中
 
 flags.DEFINE_string('model', 'gcn', 'Model string.')
