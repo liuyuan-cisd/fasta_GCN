@@ -5,7 +5,7 @@
 
 ## 使用方法
  
-  首先安装依赖：Python 3.6,Tensorflow >= 1.4.0,sklearn, numpy,nltk
+  首先安装依赖：Python 3.6,Tensorflow >= 1.4.0,sklearn, numpy,nltk,networkx
  
   直接将整个项目的文件夹放到服务器上
   
